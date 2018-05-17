@@ -2,7 +2,7 @@ import webbrowser
 
 
 class Movie():
-    """ Class for symbolize a movie """
+    # Class for symbolize a movie
 
     def __init__(self, title, poster_url, trailer_url):
         """
@@ -15,6 +15,7 @@ class Movie():
         self.poster_image_url = poster_url
         self.trailer_youtube_url = trailer_url
 
+    # Define the instance method `show_trailer
     def show_trailer(self):
-        """ Opens trailer in a browser """
+        # Opens trailer in a browser
         webbrowser.open(self.trailer_url)
