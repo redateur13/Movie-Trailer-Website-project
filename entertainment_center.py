@@ -38,8 +38,11 @@ swordfish = media.Movie(
     "http://bit.ly/SwordfishPoster",
     "https://www.youtube.com/watch?v=dPE9tHhII5U")
 
+# Put all Movies into a list
 movies = [
     interstellar, beautiful_mind, matrix, shawshank_Redemption,
     silence_of_the_Lambs, swordfish]
 
+# Calling the open_movies_page in fresh_tomatoes
+# Passing the list_of_movies
 fresh_tomatoes.open_movies_page(movies)
