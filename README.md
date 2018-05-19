@@ -56,7 +56,7 @@ python entertainment_center.py
 The following features were implemented :
 * Addition of two new files styles.ccs and scripts.js for CSS styling and Java script functions.
 * Changed the background and text colour .
-* Added drop shadow to the movie poster images.
+* Added scale on Hover  to the movie poster images.
 * entertainment_center.py : main Python script to run
 *   media.py : contains the class Movie that stores movie details
 
